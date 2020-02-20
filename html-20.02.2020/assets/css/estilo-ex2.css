@@ -1,0 +1,55 @@
+/* reset css */
+*{box-sizing: border-box;
+    padding:0;margin: 0;}
+header{width: 100%;
+    height: 200px;
+    background-color: midnightblue;}
+h1{
+     color:white;
+     text-align: center;
+     font-size: 30px;    
+     font-family:'Miltonian Tattoo', cursive;
+}
+
+nav{width: 100%;
+    height: 100px;
+    background-color: cornflowerblue;}
+
+main{width: 100%;
+    height: 700px;
+    background-color: royalblue;}
+
+footer{width: 100%;
+    height: 200px;
+    background-color: maroon;}
+
+.item{color: white;
+    font-size:1.9em;display: inline;padding-left: 150px;}
+
+#smurf{
+        width: 200px;margin: 0 auto;}
+
+
+img{
+    width: 70%;margin-top:5%;
+}
+
+a {
+    text-decoration: none;color: white;
+}
+section{
+    width: 100%;height: 300px;
+}
+#box {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#menu{
+    list-style: none;padding-right: 5px;padding-top: 40px;}
+#smurfette{width: 30px;height: 30px;}
+
+.tresimagens{
+    width: 30%;float: left;
+    border: white 3px solid;margin-right: 10px;box-shadow: white 5px 5px;
+}
