@@ -10,11 +10,51 @@
     <!-- CSS EXTERNO -->
     <link rel="stylesheet" href="../HTML 18022020/assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Miltonian+Tattoo&display=swap" rel="stylesheet">
-<!-- vou trabalhar com o css interno -->
-<style>
-    h1{color: chartreuse;}
-</style>
+    <!-- vou trabalhar com o css interno -->
+    <style>
+        h1{color: chartreuse;}
+        *{box-sizing: border-box;}
+        {margin:0;padding:0;}
 
+    header {
+        background-color: darkred;
+        width: 600px;
+        height: 100px;
+      }
+
+      nav {
+        background-color: dodgerblue;
+        width: 600px;
+        height: 80px;
+      }
+      main{
+        background-color: darkslateblue;
+        width: 600px;
+        height: 420px;
+      }
+      article{background-color: deeppink;
+        width:400px;
+        height:420px;float: left;
+      }
+      section{background-color: forestgreen;
+        width:350px;
+        height:200px;margin-left: 25px;
+      }
+      aside {background-color: firebrick;
+        width: 200px;
+        height:420px;float: left;
+      }
+      footer{background-color: greenyellow;
+        widows:600px;
+        height:100px;
+      }
+      #Caixa {
+          width: 600px;
+          height: 700px;
+          margin:0 auto;
+      }
+      #sec1{margin-top:  10px;}
+    </style>
 </head>
 <body>
     <div><img src="assets/imagens/download.jfif" alt=""></div>
@@ -22,29 +62,25 @@
     <h1>CARROS BRASILEIROS</h1>
     
     <p id="Paragrafo1">Antes de começarmos a falar no assunto, que tal entender melhor a diferença entre customização, tuning e personalização? Já adiantamos: elas são bem sutis. Mas vale a pena entender melhor e, assim, poder procurar seu mecânico de confiança com todas as informações, certo? São elas:</p>
-
-<p id="paragrafo2">personalização: é quando o motorista quer apenas instalar novos acessórios ou fazer alguma mudança na pintura do veículo.
-customização: seriam as adaptações no carro, que podem envolver mudanças nos vidros ou trocas de rodas e pneus.
-tuning de carros: alterações mais radicais das características do carro. Estão incluídos no tuning, por exemplo, o aumento da potência do motor e a troca do sistema de suspensão.</p>
-Agora você sabe quais são os termos certos. Conhece, também, como eles funcionam na prática?</p>
-<!-- classe -->
-<p style=background-color:darkblue; class="grupo1">aaa</p>
-<p class="grupo1">bbb</p>
-<p class="grupo2">ccc</p>
-<p class="grupo2">ddd</p>
-<p class="grupo2">ttt</p>
-    <!-- estrutura Semantica do site -->
-    <header></header>
-    <nav><Menu>Inicio</Menu></nav>
-    <main>
-        <article>
-            <section></section>
-            <section></section>
-        </article>
-        <aside></aside>
-    </main>
-    <footer></footer>
-
-
-</body>
-</html>
+        <!-- classe -->
+        <p style=background-color:darkblue; class="grupo1">aaa</p>
+        <p class="grupo1">bbb</p>
+        <p class="grupo2">ccc</p>
+        <!-- estrutura Semantica do site -->
+        <div id="Caixa">
+            <header>header</header>
+            
+            <nav>Navigation</nav>
+            
+            <main>
+    <article>
+       <section id="sec1">Section dentro do article</section>
+       <section>Section dentro do article</section>
+      </article>
+  <aside>aside</aside>
+     </main>
+        <footer>Footer</footer>
+        </div>
+        
+    </body>
+    </html>

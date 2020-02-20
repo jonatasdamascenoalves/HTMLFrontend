@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: firebrick;
+    width: 1200px;
+    height: 185px;
+}
+
+nav {
+    background-color: honeydew;
+    width: 1200px;
+    height: 70px;
+}
+
+aside {
+    background-color: greenyellow;
+    width: 280px;
+    height: 1000px;
+    float: left;
+}
+
+article {
+    background-color: indigo;
+    width: 920px;
+    height: 1000px;
+    float: left;
+}
+
+footer {
+    background-color: magenta;
+    width: 1200px;
+    height: 200px;
+    clear: both;
+}
+
+#box {
+    background-color: indianred;
+    width: 1200px;
+    height: 0 auto;
+}

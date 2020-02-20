@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="../assets/css/formulario.css">
+</head>
+
+<body>
+    <h1>Formulário</h1>
+    <br><br>
+    <form action="#" method="GET" id="box">
+        <label for="">
+            Nome:
+        </label><br>
+        <input type="text" name="nome" maxlength="15" size="15" placeholder="Digite seu nome" required>
+        <br><br>
+        <label for="">
+            Idade:
+        </label>
+        <input type="number" name="Idade" min="18" max="29">
+        <br><br>
+        <label for="">Nascimento:</label>
+        <input type="date" name="nascimento">
+
+        <br><br>
+        <label for="">e-mail: </label>
+        <input type="email" name="e-mail" max="15" size="20" placeholder="Digite seu e-mail:" required>
+        <br><br>
+
+        <label for="">
+            Observação:
+        </label>
+        <textarea rows="10" cols="20" name="Observacao"></textarea>
+        <br><br>
+        <select name="Estados" id="">
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="RS">Rio Grande do Sul</option>
+        </select>
+        <br><br>
+        <label for="">
+            Senha:
+        </label>
+        <input type="password" name="senha" id="">
+        <br><br>
+        <!-- <label for="">Sexo</label> -->
+        <input type="radio" name="Sexo" id="F" value="F">
+        <label for="F">Feminino</label><br>
+        <input type="radio" name="Sexo" id="M" value="M">
+        <label for="M">Masculino</label><br>
+        <br>
+        <input type="checkbox" name="" id="">
+        <label for="">Vale Transporte</label><br>
+        <input type="checkbox" name="" id="">
+        <label for="">Vale Refeição</label><br>
+        <br>
+        <input type="submit" value="Enviar"><br>
+        <input type="reset" value="Limpar dados"><br>
+    </form>
+
+
+</body>
+
+</html>
